@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    states {
+    stages {
         stage("build") {
             steps {
                 echo 'building'
